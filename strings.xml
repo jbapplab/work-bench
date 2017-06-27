@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tasks</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title">Title</string>
+    <string name="notes">Notes</string>
+
+    <string name="menu_insert">Add Task</string>
+
+    <string name="confirm">Save</string>
+
+    <string name="delete_q">Delete?</string>
+    <string name="delete">Delete</string>
+
+    <string name="save_confirmation">Are you sure you want to save this task?</string>
+    <string name="confirmation">Are you sure?</string>
+
+    <string name="positive_button">Yes</string>
+    <string name="negative_button">No</string>
+
+    <string name="task_saved_message">Task has been saved</string>
+
+</resources>

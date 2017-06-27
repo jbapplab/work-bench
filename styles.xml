@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="primary">#99b3e6</color>
+    <color name="primary_dark">#3366cc</color>
+    <color name="accent">#ffb936</color>
+    <color name="window_background">#c1dae6</color>
+    <color name="text_color_primary">#ffffff</color>
+    <color name="text_color_primary_inverse">#000000</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar"> <!-- Changed from to compat:  android:Theme.Material.NoActionBar -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorPrimaryInverse">@color/text_color_primary_inverse</item>
+    </style>
+
+    <style name="AppTheme.TransparentActionBar" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:actionBarStyle">@style/TransparentActionBar</item>
+    </style>
+
+    <style name="TransparentActionBar" parent="android:Theme.Material">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
